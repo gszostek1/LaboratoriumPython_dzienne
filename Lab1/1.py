@@ -1,0 +1,7 @@
+a = input('Podaj długosc boku a: ')
+b = float(input('Podaj długosc boku b: '))
+a = float(a)
+# print('Pole prostokąta o bokach:', a,b, 'wynosi:', a*b)
+# print('Obwód prostokąta o bokach:', a,b, 'wynosi:', (a+b)*2)
+print(f'Pole prostokąta o bokach: {a}, {b} wynosi: {a*b}')
+print(f'Pole prostokąta o bokach: {a}, {b} wynosi: {(a+b)*2}')
